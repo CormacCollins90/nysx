@@ -37,7 +37,7 @@ nav {
 
 .bg_base {
 
-    background-image: url("/media/images/nysx.jpeg");
+    background-image: url("/static/images/nysx.jpeg");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
