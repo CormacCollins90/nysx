@@ -1,0 +1,45 @@
+body {
+    font-family: Arial;
+    padding-top: 60px;
+}
+
+footer {
+    margin-top: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-top: 1px solid #ededed;
+    color: #A9A9A9;
+}
+
+.icon-bar {
+    background-color: #fff;
+}
+
+.accountform {
+    padding-top: 20
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.3) !important;
+}
+
+.img {
+    height: 300px !important;
+
+}
+
+
+.thumbnail {
+    max-height: 30% !important;
+    max-width: 100% !important;
+
+}
+
+.bg_base {
+
+    background-image: url("/media/images/nysx.jpeg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

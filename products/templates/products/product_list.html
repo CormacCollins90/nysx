@@ -1,0 +1,24 @@
+{% extends "base.html" %} 
+{% block content %}
+
+<div class="container-fluid">
+    <div class="row">
+        {% for product in products %}
+        <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+            <div class="thumbnail">
+                <img class="img" src="{{MEDIA_URL}}{{product.image}}" alt="">
+                <div class="caption">
+                    <h4 class="pull-right">{{product.converted_price}}</h4>
+                    <h4><a href="{% url 'product_detail' product.id %}">{{product.name}}</a>
+                    </h4>
+                    <p>{{product.brand}}</p>
+                    <a href="{% url 'product_detail' product.id %}" class="btn btn-default mainbtn">Quick View</a>
+
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+{% endblock content %}

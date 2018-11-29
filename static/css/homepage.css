@@ -1,0 +1,138 @@
+body {
+    font-family: Arial;
+    padding-top: 0px;
+    
+}
+
+footer {
+    margin-top: 120px;
+    padding-top: 0px;
+    padding-bottom: 40px;
+    border-top: 1px solid #ededed;
+    color: #A9A9A9;
+    background-color: black;
+}
+
+.icon-bar {
+    background-color: #fff;
+}
+
+.accountform {
+    padding-top: 20
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.3) !important;
+    font-family: 'Old Standard TT', serif;
+    font-size: 80px !important;
+}
+
+
+
+.bg {
+
+    width: 100vw;
+    height: 100vh;
+}
+
+.nysx {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    max-width: 100%;
+    font-family: 'Old Standard TT', serif;
+}
+
+.main {
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    width: 450px;
+    color: #F2E278 !important;
+    font-size: 100px;
+    padding: 5px;
+    text-align: center;
+    margin: auto;
+    margin-top: 1%;
+    font-family: 'Old Standard TT', serif;
+}
+
+.mainbtn {
+    z-index: 2;
+    position: absolute;
+    top: 80%;
+    left: 45%;
+    width: 155px;
+    color: white;
+    background: #F2E278;
+    font-size: 15px;
+    padding: 10px;
+    text-align: center;
+    /*margin: auto;*/
+    margin-top: 3%;
+    font-family: 'Mitr', sans-serif;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white !important;
+}
+
+.navbar-default .navbar-nav>li>a: hover{
+    color: gold !important;
+}
+
+.bg2{
+    position: relative;
+    top: 60px;
+    left: 160%;
+    width: 80%;
+    height: 50vh;
+    overflow: hidden;
+    max-width: 100%;
+    font-family: 'Old Standard TT', serif;
+}
+
+button, input, optgroup, select, textarea{
+    color: black !important;
+}
+
+
+
+
+
+
+
+
+
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+    
+    
+}
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) { 
+    
+    
+}
+
+/*Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) { 
+    
+    
+}
+
+/* Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) { 
+
+    
+}
+
+
+
+
