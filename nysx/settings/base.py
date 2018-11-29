@@ -84,9 +84,8 @@ WSGI_APPLICATION = 'nysx.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.0/ref/settings/#databases
 
-DB = os.environ.get('DB', "DATABASE_URL")
 DATABASES = {
-    'default': dj_database_url.parse(os.environ.get(DB, "sqlite:///db.sqlite3"))
+    'default': dj_database_url.parse(os.environ.get("DATABASE_URL"))
 }
 
 
